@@ -20,21 +20,29 @@ The project keeps the **Dashboard** and **TodoItem** components intact while enh
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+### Frontend
 - React (Vite)
 - JavaScript (ES6+)
 - CSS / Custom Styling
 - React Icons
 - Axios
 
-**Backend (API)**
+### Backend (API)
 - Node.js
-- Express.js  
+- Express.js
 - REST API (running on port `5000`)
-Install Dependencies:
-▶ Frontend Setup
+
+---
+
+## 📦 Install Dependencies
+
+### ▶ Frontend Setup
+```bash
 cd frontend
 npm install
-▶ Backend Setup
+```
+### ▶ Backend Setup
+```bash
 cd backend
 npm install
+```
