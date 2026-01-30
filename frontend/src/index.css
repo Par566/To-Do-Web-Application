@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #eaf4f4;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #f3f6fb;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background: #4f46e5;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 20px;
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* LOGIN PAGE */
+.login-page {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+
+.login-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-left img {
+  width: 80%;
+}
+
+.login-right {
+  flex: 1;
+  background: #cfe3e3;
+  padding: 80px;
+}
+
+.login-right h2 {
+  margin-bottom: 20px;
+}
+
+.socials button {
+  margin-right: 10px;
+  border-radius: 50%;
+  border: none;
+  padding: 10px 14px;
+}
+
+.or {
+  margin: 15px 0;
+}
+
+.login-right input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register span {
+  color: red;
+  cursor: pointer;
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 50px;
+}
+
+.dashboard header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.todo-inputs input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.todo-inputs button {
+  padding: 10px 15px;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
